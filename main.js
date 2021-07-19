@@ -1,11 +1,9 @@
-const hamburgerBtn = document.querySelector("#hamburger")
-const navMenu = document.querySelector(".nav-menu")
+const hamburgerBtn = document.querySelector("#hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
-function mobile () {
-    hamburgerBtn.classList.toggle("active");
-    navMenu.classList.toggle("active");
-    console.log('dziala')
-    
+function mobile() {
+  hamburgerBtn.classList.toggle("active");
+  navMenu.classList.toggle("active");
 }
 
-hamburgerBtn.addEventListener('click', mobile)
+hamburgerBtn.addEventListener("click", mobile);
